@@ -7,4 +7,6 @@ function Soma () {
     n2 = parseInt (n2)
 
     Soma = n1 + n2 
+
+    document.getElementById('resposta').innerHTML = Soma
 }
