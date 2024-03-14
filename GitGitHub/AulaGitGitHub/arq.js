@@ -1,5 +1,5 @@
 function Soma () {
-    var n1, n2
+    var n1, n2, soma
     n1 = document.getElementById ('Primeiro Numero').value
     n2 = document.getElementById ('Segundo Numero').value
 
@@ -8,5 +8,5 @@ function Soma () {
 
     Soma = n1 + n2 
 
-    document.getElementById('resposta').innerHTML = Soma
+    document.getElementById('resposta').innerHTML = soma
 }
